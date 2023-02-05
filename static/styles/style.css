@@ -1,0 +1,93 @@
+body
+{margin: 0;
+    padding: 0;
+}
+
+span{font-style: italic;
+}
+/* Content */
+.list-conteiner {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    padding-right: 20px;
+}
+.list-conteiner> p {
+    text-align:center;
+    font-weight: bold;
+}
+
+.img-conteiner
+{float: right;
+    border-style: solid;
+    border-width: 1px;
+    
+    padding: 10px;
+    margin-left: 20px;
+}
+.img-conteiner>div
+{display:flex;
+align-items: center;
+flex-direction: column;}
+
+.logo5{
+    max-width: 70px;
+}
+/* верхняя навигационная панель */
+.nav-conteiner
+{display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 225, 239)
+}
+.nav-conteiner>nav>ul
+{display: flex;
+list-style: none;
+margin:0px;
+padding: 0px;
+align-items: center;
+}
+
+.nav-conteiner>nav>ul>li>a
+{display: block;
+padding: 10px;
+border-style: solid;
+border-width: 0.50px;
+
+}
+
+
+
+
+@media (max-width: 900px) 
+{.nav-conteiner{flex-direction: column;
+} 
+}
+
+
+.text-page
+{padding: left
+}
+
+.page
+{ display: flex ;
+justify-content: center;
+
+}
+.header
+{width: 14%;
+background-color: rgb(250, 250, 252) ;
+}
+
+.section
+{width: 82%;}
+
+.header
+{list-style: none;
+    border-bottom-style: solid 0.5px;
+    border-width: 0.5px;
+    margin: 10px;
+    padding: 0px;
+    padding-bottom: 10px;
+
+}
